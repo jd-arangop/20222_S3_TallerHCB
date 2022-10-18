@@ -1,3 +1,71 @@
-.text-align-justify{
-    text-align: justify;
+body {
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    background-color: rgb(30, 30, 38);
+  }
+
+@font-face{
+    font-family: 'LoLFont';
+    src: url(https://lolstatic-a.akamaihd.net/webfonts/live/css/riot/fonts.css) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;
+}
+
+#lista{
+    background-color:rgb(30, 30, 38);
+}
+
+.layout_padding {
+    padding: 75px 0;
+  }
+  
+  .layout_padding2 {
+    padding: 45px 0;
+  }
+  
+  .layout_padding2-top {
+    padding-top: 45px;
+  }
+  
+  .layout_padding2-bottom {
+    padding-bottom: 45px;
+  }
+  
+  .layout_padding-top {
+    padding-top: 75px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 75px;
+  }
+
+div#header{
+    height: 120vh;
+    background-image: url(KDALogo.png);
+    background-color: rgb(30, 30, 38);;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+div#info{
+    background-color: rgb(30, 30, 38);;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative; 
+}
+
+#space{
+    height: 10vh;
+}
+
+#heading { 
+    color: #ffffff; 
+}
+
+#texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
